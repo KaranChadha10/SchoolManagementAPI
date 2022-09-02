@@ -1,4 +1,8 @@
-﻿using AutoMapper;
+﻿using API.DTOs.Department;
+using API.DTOs.Event;
+using API.DTOs.Subject;
+using API.Entities;
+using AutoMapper;
 
 namespace API.MappingProfiles
 {
@@ -6,6 +10,20 @@ namespace API.MappingProfiles
     {
         public MappingProfile()
         {
+            // Subject
+            CreateMap<Subject, GetSubjectDTO>().ReverseMap();
+            CreateMap<CreateSubjectDTO, Subject>();
+            CreateMap<UpdateSubjectDTO, Subject>();
+
+            // Department
+            CreateMap<Department, GetDepartmentDTO>().ReverseMap();
+            CreateMap<CreateDepartmentDTO, Department>();
+            CreateMap<UpdateDepartmentDTO, Department>();
+
+            //Event
+            CreateMap<Event, GetEventDTO>().ReverseMap();
+            CreateMap<CreateEventDTO, Event>();
+            CreateMap<UpdateEventDTO, Event>();
 
         }
     }

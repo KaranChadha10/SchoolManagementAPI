@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using API.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.DataContext
 {
@@ -8,5 +9,9 @@ namespace API.DataContext
         {
 
         }
+
+        public DbSet<Subject> Subjects { get; set; }
+        public DbSet<Department> Departments{ get; set; }
+        public DbSet<Event> Events { get; set; }
     }
 }

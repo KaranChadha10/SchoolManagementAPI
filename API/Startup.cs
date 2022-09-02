@@ -28,6 +28,7 @@ namespace API
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddApplicationDbContext(Configuration);
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -42,11 +43,16 @@ namespace API
                 options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()); // for enum as strings
             });
 
+
+            //DI Services and Repos
+            services.AddCoreComponents();
             // AutoMapper settings
             services.AddAutoMapperSetup();
 
             // HttpContext for log enrichment 
             services.AddHttpContextAccessor();
+
+            
 
             // Swagger settings
             //services.AddApiDoc();

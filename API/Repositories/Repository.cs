@@ -77,7 +77,7 @@ namespace API.Repositories
 
         public IQueryable<TEntity> GetAll()
         {
-            return DbSet.AsNoTracking().Where(e => e.IsDeleted == false); 
+            return DbSet.Where(e => e.IsDeleted == false); 
         }
 
         public virtual async Task<TEntity> GetById(long id)
