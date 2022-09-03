@@ -14,6 +14,7 @@ namespace API.Extensions
             services.AddScoped<ISubjectRepository, SubjectRepository>();
             services.AddScoped<IDepartmentRepository, DepartmentRepository>();
             services.AddScoped<IEventRepository, EventRepository>();
+            services.AddScoped<IUserTypeRepository, UserTypeRepository>();
             #endregion
 
 
@@ -21,6 +22,7 @@ namespace API.Extensions
             services.AddScoped<ISubjectService, SubjectService>();
             services.AddScoped<IDepartmentService, DepartmentService>();
             services.AddScoped<IEventService, EventService>();
+            services.AddScoped<IUserTypeService, UserTypeService>();
             #endregion
 
 
