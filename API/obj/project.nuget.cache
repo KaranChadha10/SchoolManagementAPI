@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RpqpUsPkQiJ23cgySZXgiXQiMrmDAeXHlHD5ILIwdjHT7uGLbfP7pPe8PeWngCz4iMdfBCo4ROFGD+fEVWofHg==",
+  "dgSpecHash": "BfEN9NaJuoBpTqXKC4jvTGpo6hQUz2arJyYSVPe7bwsF/jk/vk43kI9km7OfM+k5Tr2L0g+osiY0BhX6gcFXBg==",
   "success": true,
   "projectFilePath": "D:\\SchoolManagementSystem\\API\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KARAN\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\KARAN\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\KARAN\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\KARAN\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\KARAN\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.11\\microsoft.aspnetcore.authentication.jwtbearer.5.0.11.nupkg.sha512",
     "C:\\Users\\KARAN\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.11\\microsoft.aspnetcore.cryptography.internal.5.0.11.nupkg.sha512",

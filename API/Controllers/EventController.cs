@@ -8,9 +8,8 @@ using System.Threading.Tasks;
 
 namespace API.Controllers
 {
-    [Microsoft.AspNetCore.Mvc.Route("api/[controller]/[Action]")]
-    [ApiController]
-    public class EventController : ControllerBase
+
+    public class EventController : BaseApiController
     {
         private readonly IEventService _eventService;
 

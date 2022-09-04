@@ -9,9 +9,8 @@ using System.Threading.Tasks;
 
 namespace API.Controllers
 {
-    [Microsoft.AspNetCore.Mvc.Route("api/[controller]/[Action]")]
-    [ApiController]
-    public class DepartmentController : ControllerBase
+    
+    public class DepartmentController : BaseApiController
     {
         private readonly IDepartmentService _departmentService;
 

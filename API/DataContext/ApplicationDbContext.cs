@@ -14,6 +14,7 @@ namespace API.DataContext
         public DbSet<Department> Departments { get; set; }
         public DbSet<Event> Events { get; set; }
         public DbSet<UserType> UserTypes { get; set; }
+        public DbSet<User> Users { get; set; }
 
 
     }

@@ -8,9 +8,8 @@ using System.Threading.Tasks;
 
 namespace API.Controllers
 {
-    [Microsoft.AspNetCore.Mvc.Route("api/[controller]/[Action]")]
-    [ApiController]
-    public class SubjectController : ControllerBase
+    
+    public class SubjectController : BaseApiController
     {
         private readonly ISubjectService _subjectService;
 

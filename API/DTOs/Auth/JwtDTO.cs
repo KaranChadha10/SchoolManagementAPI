@@ -10,7 +10,6 @@ namespace API.DTOs.Auth
         public long UserId { get; set; }
         public string UserRole { get; set; }
         public bool IsAuthenticated { get; set; }
-        public int FailedLoginAttemptCount { get; set; }
 
     }
 }

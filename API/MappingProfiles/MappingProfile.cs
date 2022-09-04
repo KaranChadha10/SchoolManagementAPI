@@ -1,6 +1,7 @@
 ﻿using API.DTOs.Department;
 using API.DTOs.Event;
 using API.DTOs.Subject;
+using API.DTOs.User;
 using API.DTOs.UserType;
 using API.Entities;
 using AutoMapper;
@@ -30,6 +31,11 @@ namespace API.MappingProfiles
             CreateMap<UserType, GetUserTypeDTO>().ReverseMap();
             CreateMap<CreateUserTypeDTO, UserType>();
             CreateMap<UpdateUserTypeDTO, UserType>();
+
+            //User
+            CreateMap<User, GetUserDTO>().ReverseMap();
+            CreateMap<CreateUserDTO, User>();
+            CreateMap<UpdateUserDTO, User>();
 
         }
     }
